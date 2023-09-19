@@ -1,0 +1,58 @@
+.speech {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: black;
+  }
+  .Direction {
+    font-family: "Garamond", Times, serif;
+    font-size: 20px;
+    color: red;
+    
+  }
+  p2:hover
+  {
+    background-color: lightcyan;
+  }
+  h6
+  {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .name 
+  {
+    font-size: 120%;
+    cursor: pointer;
+    overflow: hidden;
+    text-shadow: 0 0 3px black,0 0 5PX red;
+  }
+  .name2
+  {
+    font-size: 120%;
+    cursor: pointer;
+    text-shadow: 0 0 3px black,0 0 5PX red;
+
+  }
+  .name:hover
+  {
+    color:pink;
+    background: blur;
+  }
+  .name2:hover
+  {
+    color: pink;
+  }
+  
+  table,th,td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 10PX;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  tr:nth-child(even)
+  {
+    background-color: grey;
+    text-emphasis-color: black;
+  }
