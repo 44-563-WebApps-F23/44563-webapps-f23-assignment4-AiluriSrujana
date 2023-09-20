@@ -9,6 +9,10 @@
     color: red;
     
   }
+  p2:hover
+  {
+    background-color: lightcyan;
+  }
   
   .name 
   {
@@ -22,6 +26,16 @@
     font-size: 120%;
     overflow: hidden;
     background-color: cadetblue;
+  }
+  h6
+  {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  h1
+  {
+    background-color: lightblue;
+
   }
 table,th,td{
     
@@ -37,26 +51,15 @@ table,th,td{
     background-color: grey;
     text-emphasis-color: black;
   }
-  p2:hover
-  {
-    background-color: lightcyan;
-  }
-  h6
-  {
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  h1
-  {
-    background-color: lightblue;
-
-  }
+  
+  
   h1:hover
   {
     color:pink;
     background: blur;
     background-color: burlywood;
     text-shadow: 0 0 3px black,0 0 5PX red;
+    border-style: outset;
   }
   .name:hover
   {
@@ -64,6 +67,8 @@ table,th,td{
     background: blur;
     background-color: burlywood;
     text-shadow: 0 0 3px black,0 0 5PX red;
+    border-style: outset;
+
   }
   .name2:hover
   {
@@ -71,6 +76,8 @@ table,th,td{
     background: blur;
     background-color: burlywood;
     text-shadow: 0 0 3px black,0 0 5PX red;
+    border-style: outset;
+
   }
   .navbar{
     margin: 0;
