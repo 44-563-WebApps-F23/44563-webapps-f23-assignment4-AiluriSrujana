@@ -9,40 +9,21 @@
     color: red;
     
   }
-  p2:hover
-  {
-    background-color: lightcyan;
-  }
-  h6
-  {
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-  }
+  
   .name 
   {
     font-size: 120%;
-    cursor: pointer;
     overflow: hidden;
-    text-shadow: 0 0 3px black,0 0 5PX red;
+    background-color: cadetblue;
+    
   }
   .name2
   {
     font-size: 120%;
-    cursor: pointer;
-    text-shadow: 0 0 3px black,0 0 5PX red;
-
+    overflow: hidden;
+    background-color: cadetblue;
   }
-  .name:hover
-  {
-    color:pink;
-    background: blur;
-  }
-  .name2:hover
-  {
-    color: pink;
-  }
-  
-  table,th,td{
+table,th,td{
     
     border: 1px solid black;
     border-collapse: collapse;
@@ -55,4 +36,54 @@
   {
     background-color: grey;
     text-emphasis-color: black;
+  }
+  p2:hover
+  {
+    background-color: lightcyan;
+  }
+  h6
+  {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  h1
+  {
+    background-color: lightblue;
+
+  }
+  h1:hover
+  {
+    color:pink;
+    background: blur;
+    background-color: burlywood;
+    text-shadow: 0 0 3px black,0 0 5PX red;
+  }
+  .name:hover
+  {
+    color:pink;
+    background: blur;
+    background-color: burlywood;
+    text-shadow: 0 0 3px black,0 0 5PX red;
+  }
+  .name2:hover
+  {
+    color: pink;
+    background: blur;
+    background-color: burlywood;
+    text-shadow: 0 0 3px black,0 0 5PX red;
+  }
+  .navbar{
+    margin: 0;
+    padding: 0
+  }
+
+  .navbar li{
+    float: left;
+    color: black;
+    background-color: lightblue;
+  }
+
+  .navbar a{
+    display: block;
+    padding: 20px;
   }
